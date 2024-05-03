@@ -1,0 +1,41 @@
+footer {
+    background-color: rgb(156, 156, 156);
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid transparent black;
+    display: inline-block;
+    /* nao deixa balançar o conteúdo acima */
+    padding: 10px;
+    min-width: 360px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    /*Tira os pontos*/
+    display: flex;
+    /*Deixa a lista em linha*/
+    padding: 20px 0px;
+    /* margin: 0px 0px; */
+}
+
+footer ul li {
+    padding: 0px 25px 0px 25px;
+}
+
+.div-footer ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    transition: .2s;
+}
+
+.div-footer ul li a:hover {
+    font-size: 40px;
+}
+
+.div-footer {
+    text-align: center;
+    display: inline-block;
+}

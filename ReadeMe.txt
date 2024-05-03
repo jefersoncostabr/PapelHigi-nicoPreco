@@ -1,0 +1,4 @@
+Colocar footer
+Configurar para outras telas
+Colocar botão voltar
+colocar no git
